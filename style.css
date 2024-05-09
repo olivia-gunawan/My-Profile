@@ -1,0 +1,77 @@
+
+body{
+	background-color: rebeccapurple;
+	color: black;
+	font-family: arial;
+	font-weight: 100;
+	letter-spacing: 1px;
+}
+
+h1, h2, h3, h4 {
+	font-size: 30px;
+	font-weight: 1000;
+	letter-spacing: 2px;
+}
+h1{
+	color: hotpink;
+	font-family: arial;
+	text-transform: lowercase;
+}
+
+h2{
+	color: seagreen;
+	font-family: Courier;
+	text-transform: uppercase;
+}
+
+h3{
+	color: darkorange;
+	font-family: cursive;
+	text-transform: lowercase;
+}
+
+h4{
+	color: darkblue;
+	font-family: fantasy;
+	text-transform: inherit;
+}
+
+a{
+	text-decoration: none;
+	color:deepskyblue;
+}
+a:hover {
+	color: hotpink;
+}
+
+.container {
+	width:800px;
+	margin: 30px auto;
+}
+
+@media (max-width:760px) {
+	.container {
+		width:600px;
+	}
+}
+
+@media (max-width:500px) {
+	.container {
+		width:400px;
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50px;
+}
+
+
